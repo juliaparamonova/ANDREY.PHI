@@ -1,0 +1,14 @@
+.header_body {
+    width: 1680px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img {
+    width: 74px;
+    height: 47px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 86px;
+}
