@@ -11,6 +11,9 @@ export default function Body() {
           <img src={BodyPC} alt="Fotografie eines der Werke" />
         </picture>
       </div>
+      <div className={css.contacts}>
+        <h2 className={css.title_contacts}>Whatsapp / E-mail</h2>
+      </div>
     </section>
   );
 }
