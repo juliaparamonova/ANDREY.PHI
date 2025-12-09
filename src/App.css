@@ -51,6 +51,8 @@ a {
 button {
   font-family: inherit;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 section {
