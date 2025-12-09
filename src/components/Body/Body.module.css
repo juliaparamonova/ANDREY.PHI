@@ -1,27 +1,3 @@
-/* .container_body {}
-
-.title_body {
-
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 200px;
-    line-height: 1.2;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: #000;
-}
-
-.body_pct {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 251px;
-    margin-bottom: 257px;
-}
-
-.section_body {} */
 .section_body {
     position: relative;
     min-height: 100vh;
@@ -30,53 +6,56 @@
     align-items: center;
 }
 
-/* Контейнер картинки */
 .body_pct {
     position: relative;
     display: inline-block;
 }
 
-/* Картинка */
 .body_pct img {
     display: block;
     width: 100%;
-    max-width: 500px;
+    max-width: 853px;
     height: auto;
 }
 
-/* Контейнер для бегущего текста */
+.picture_body {
+    width: 853px;
+    height: 449px;
+}
+
+
 .text_wrapper {
     position: absolute;
     top: 20px;
-    /* расстояние сверху картинки — меняй как хочешь */
     left: 0;
     width: 100%;
     overflow: hidden;
-    /* скрываем текст когда уходит за края */
 }
 
-/* Двигающийся текст */
 .title_body {
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 200px;
+    line-height: 1.2;
     white-space: nowrap;
-    /* текст в одну строку */
+    letter-spacing: -0.03em;
+    text-align: center;
     position: absolute;
-    right: -100%;
-    /* начинает за правым краем */
+    right: -200%;
     animation: moveLeft 8s linear infinite;
     color: black;
 }
 
-/* Анимация справа → налево */
+
+
+
 @keyframes moveLeft {
     0% {
         transform: translateX(0);
     }
 
     100% {
-        transform: translateX(-300%);
-        /* чем больше %, тем дальше уезжает */
+        transform: translateX(-200%);
+
     }
 }
