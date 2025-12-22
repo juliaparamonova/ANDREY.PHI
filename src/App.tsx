@@ -7,6 +7,22 @@ import Gallery from './components/Gallery/Gallery';
 import Aboutme from './components/Aboutme/Aboutme';
 import Contacts from './components/Contacts/Contacts';
 
+// const sections = document.querySelectorAll<HTMLElement>('.section');
+// const progressBar = document.getElementById('progress-bar') as HTMLElement;
+
+// window.addEventListener('scroll', () => {
+//   let currentPercent = 0;
+
+//   sections.forEach(section => {
+//     const rect = section.getBoundingClientRect();
+//     if (rect.top <= window.innerHeight / 2) {
+//       currentPercent = Number(section.dataset.percent);
+//     }
+//   });
+
+//   progressBar.style.width = currentPercent + '%';
+// });
+
 export default function App() {
   const [showButtons, setShowButtons] = useState(false);
 
