@@ -1,0 +1,32 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 113px;
+
+}
+
+.title_contacts {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    margin-left: auto;
+    padding-right: 89px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.63636;
+    letter-spacing: -0.01em;
+    color: #000;
+
+}

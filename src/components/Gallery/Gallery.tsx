@@ -5,7 +5,7 @@ export default function Gallery() {
     <section className={css.section_body}>
       <div className={css.contacts}>
         <h2 className={css.title_contacts}>Whatsapp / E-mail</h2>
-        <button>
+        <button className={css.btn}>
           <h3>alle Werke erkunden</h3>
         </button>
       </div>

@@ -1,0 +1,82 @@
+.listabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 408px;
+}
+
+.list_photo {
+    padding-left: 66px;
+    padding-bottom: 160px;
+
+}
+
+.list_text_about {
+    padding-right: 233px;
+    padding-bottom: 23px;
+}
+
+.text_title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #000;
+}
+
+.text_title_bold {
+    font-weight: 700;
+}
+
+.btn_more {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.63636;
+    letter-spacing: -0.01em;
+    color: #000;
+}
+
+.text_title_more {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #000;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 113px;
+
+}
+
+.title_contacts {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    margin-left: auto;
+    padding-right: 89px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.63636;
+    letter-spacing: -0.01em;
+    color: #000;
+
+}

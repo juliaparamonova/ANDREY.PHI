@@ -1,8 +1,8 @@
 #root {}
 
 body {
-  /* width: 1680px;
-  height: 4747px; */
+  width: 1680px;
+  height: 4858px;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -53,6 +53,7 @@ button {
   font-family: inherit;
   cursor: pointer;
   border: none;
+  background: none;
   outline: none;
 }
 
