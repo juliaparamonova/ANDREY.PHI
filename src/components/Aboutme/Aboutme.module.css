@@ -1,3 +1,8 @@
+.section_body {
+    padding-top: 116px;
+    padding-bottom: 111px;
+}
+
 .listabout {
     display: flex;
     flex-direction: row;

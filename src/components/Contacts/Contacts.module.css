@@ -1,0 +1,124 @@
+.section_contacts {
+    padding-top: 259px;
+    padding-bottom: 111px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 113px;
+    padding-bottom: 111px;
+
+}
+
+
+.btn {
+    margin-left: auto;
+    padding-right: 89px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.63636;
+    letter-spacing: -0.01em;
+    color: #fff;
+
+}
+
+.title_city {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2.08333;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title_info {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+    /* padding-top: 181px; */
+    white-space: nowrap;
+}
+
+.list_contacts_footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: right;
+    color: #fff;
+}
+
+.list_contacts_footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 263px;
+    padding-left: 570px;
+    margin: 0;
+    list-style: none;
+}
+
+.contact_column h3 {
+    margin: 0 0 8px 0;
+
+}
+
+.title_cnt {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+    padding-top: 163px;
+}
+
+.social {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: right;
+    color: #fff;
+    padding-top: 116px;
+    padding-bottom: 27px;
+}
+
+.social_1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-align: right;
+    color: #fff;
+
+}
+
+.email {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5625;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+}

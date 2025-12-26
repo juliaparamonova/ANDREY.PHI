@@ -11,12 +11,12 @@
 
 }
 
-.body_pct img {
+/* .body_pct img {
     display: block;
     width: 100%;
     max-width: 853px;
     height: auto;
-}
+} */
 
 .picture_body {
     width: 853px;
@@ -76,7 +76,7 @@
 
 
 
-
+/* 
 
 @keyframes moveLeft {
     0% {
@@ -86,4 +86,4 @@
     100% {
         transform: translateX(-100%);
     }
-}
+} */

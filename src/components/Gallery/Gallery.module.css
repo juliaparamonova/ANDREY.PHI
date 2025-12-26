@@ -1,3 +1,8 @@
+.section_gallery {
+    padding-top: 224px;
+    padding-bottom: 111px;
+}
+
 .contacts {
     display: flex;
     align-items: center;

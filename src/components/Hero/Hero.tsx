@@ -9,7 +9,7 @@ export default function Hero() {
       </video>
       <div></div>
       {/* <h1>WELCOME TO MY ART WORLD</h1> */}
-      <img src={Group} alt="title" />
+      <img src={Group} alt="title" className={css.hero_img} />
     </section>
   );
 }
